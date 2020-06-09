@@ -7,6 +7,10 @@ export default class BasicYouTubePlayer extends LightningElement {
     @api youTubeId;
     player;
 
+    handleClick(event) {
+        this.youTubeId = event.target.value;
+    }
+
     renderedCallback() {
         if (!this.youTubeId) {
             return;

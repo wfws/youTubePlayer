@@ -3,6 +3,21 @@
         <div class="wrapper" lwc:dom="manual"></div>
     </template>
     <template if:false={youTubeId}>
-        <lightning-card  title="Empty YouTube ID found. Please specify a YouTube ID."></lightning-card>
+        <lightning-card  title="Select a Training Video"></textarea></lightning-card>
     </template>
+
+        <div class="slds-m-top_small slds-m-bottom_medium">
+            <lightning-button label="What is a Salesforce Dashboard?" value="J1R8Nk0pI-s" title="Non-primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            <br>
+            <lightning-button label="How do I access Salesforce on a mobile device?" value="U_shI9fX2ms" title="Non-primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            <br>
+            <lightning-button label="What does the Opportunity Close Date field represent?" value="W0rd7pSD09U" title="Non-primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+           <br>
+            <lightning-button label="What is a Salesforce Activity?" value="Po7xPUyknuw" title="Non-primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            <br>
+            <lightning-button label="What is the difference between a Suspect, Prospect and Opportunity?" value="cz8xGhGMd_M" title="Non-primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            <br>
+            <lightning-button label="What is the difference between an Open Opportunity and a Closed one?" value="mtMts03-xBI" title="Non-primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+        </div>
+      
 </template>
